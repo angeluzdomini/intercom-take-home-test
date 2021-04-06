@@ -15,6 +15,8 @@ forget, you'll need to convert degrees to radians.
 - External libraries
   - org.json:json:20201115 : For transforming json data from the files.
   - org.junit.jupiter:junit-jupiter-engine:5.5.2 and org.junit.platform:junit-platform-runner:1.5.2 : Support for junit5 test cases.
+
+- Origin location (Dublin office), search radius and input file name/path are defined as constants as per the problem statement.
  
 ## How to run
 ### Pre-requisites
