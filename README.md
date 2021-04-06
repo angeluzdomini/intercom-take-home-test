@@ -44,8 +44,12 @@ Version would be given similar to this:
 **Apache Maven 3.6.1**
 
 ### Building the code
-You can build the code using the following command from the root folder of the project:
+You can build the code running the following command from the root folder of the project:
 > **mvn clean install**
+The above command also runs the test cases during the build. 
+
+To run test cases alone, run the following command from the root folder of the project:
+> **mvn test**
 
 ### Running the code
 After building the code successfully, go to the root folder of the project and run the command:
